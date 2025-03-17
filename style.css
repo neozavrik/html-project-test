@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  header {
+    background: #bc5649;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0;
+  }
+  .hero {
+    background-color: #000000;
+    background-image: url('https://tandyr.ua/wp-content/uploads/2024/11/tandyr-sldr-1-1024x682.jpg.pagespeed.ce.JgXjIRB44X.jpg');
+    background-size: 100% auto;
+    background-repeat: repeat;
+    background-position: center;
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    /* background: url('https://tandyr.ua/wp-content/uploads/2024/11/tandyr-sldr-1-1024x682.jpg.pagespeed.ce.JgXjIRB44X.jpg')
+      no-repeat center center/cover;*/
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 48px;
+    margin: 0 0 10px;
+  }
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .hero .cta {
+    margin: 20px auto;
+    padding: 15px 30px;
+    background: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .hero .cta:hover {
+    background: #cc7a00;
+  }
+  section {
+    padding: 20px;
+    text-align: center;
+  }
+  footer {
+    background: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+  }
+  .services {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 24px;
+    padding-left: 0;
+  }
+  .services li {
+    background: #bc5649;
+    padding: 16px;
+    width: 33%;
+  }
+  .services li img {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: 0 auto 16px auto;
+  }
+  
+  @media screen and (max-width: 480px) {
+    header h1 {
+      font-size: 16px;
+    }
+  
+    .services {
+      flex-direction: column;
+    }
+  
+    .services li {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 481px) and (max-width: 1024px) {
+    .services {
+      flex-wrap: wrap;
+    }
+  
+    .services li {
+      width: 48%;
+    }
+  }
+  
+  /*  < 480 mobile, < 1024 tablet, >> desktop/laptop  */
